@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: skyblue;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-justify;
+    perspective: 300px;
+}
+.item{
+    background: green;
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+}
+.item1:hover{
+    transform: rotateY(30deg) scaleZ(2);
+}

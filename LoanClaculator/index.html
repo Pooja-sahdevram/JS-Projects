@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <form action="" class="container">
+        <h2>Loan Calculator</h2>
+        <p>Loan Amount $ <input type="number" name="" id="lone-amount" min="1" max="500000" value="10000" onchange="calculateLoan()"></p>
+        <p>Intrest Rate  $ <input type="number" name="" id="lone-interst" min="1" max="1000" value="10" step="0.1" onchange="calculateLoan()"></p>
+        <p>Month To pay $ <input type="number" name="" id="lone-Month" min="6" max="48" value="12" onchange="calculateLoan()"></p>
+        <p>Monthly Payment : <sapn class="spamEl"></sapn></p>
+    </form>
+    
+    <script src="index.js"></script>
+</body>
+</html>
