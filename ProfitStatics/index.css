@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+    text-align: center;
+
+    
+}
+h4{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+.box{
+    align-items: center;
+    min-width: 200px;
+    min-height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    position: relative;
+    place-items: center; /* Center content horizontally and vertically */
+
+}
+.icon{
+transform: translate(-50%,-100%);
+position: absolute;
+}
+.counter{
+    font-size: 54px;
+    font: bold;
+    color: green;
+
+}
+@media (max-width:600px){
+    body{
+        flex-direction: column;
+    }
+}
