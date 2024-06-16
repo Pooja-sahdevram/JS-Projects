@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  text-wrap: wrap;
+  text-align: justify;
+  position: relative;
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  padding: 0px 10px;
+  top: 0;
+  background-color: white;
+}
+.stcikynav {
+  display: flex;
+  min-width: 200px;
+  justify-content: space-evenly;
+}
+.burger {
+  display: none;
+  cursor: pointer;
+  position: relative;
+}
+h1 {
+  margin: 0;
+}
+.burgers {
+  position: absolute;
+  background-color: white;
+  width: 150px;
+  right: -50px;
+  display: none;
+  transition: 5s linear;
+  transform: translateX(-10px);
+  transition: transform 0.3s ease;
+}
+
+.stcikynav li {
+  margin: 0 10px;
+}
+@media (max-width: 550px) {
+  .stcikynav {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
