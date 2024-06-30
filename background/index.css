@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+p {
+  text-align: justify;
+}
+.backg {
+  width: 100%;
+  height: 300px;
+  background-image: url("./Screenshot\ 2024-05-25\ 001348.png");
+  background-attachment: fixed;
+  border: 1px white solid;
+}

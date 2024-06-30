@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  cursor: pointer;
+}
+.conatiner :first-child {
+  background-color: aqua;
+}
+.box:first-child + .box {
+  background-color: palegoldenrod;
+}
+.box:nth-child(2) + .box {
+  background-color: fuchsia;
+}
+.box:nth-child(3) + .box {
+  background-color: yellow;
+}
+.conatiner {
+  display: flex;
+  justify-content: space-between;
+}
